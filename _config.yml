@@ -12,4 +12,4 @@ color_scheme: dark
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "10.0.2"
+  version: "9.1.6"
