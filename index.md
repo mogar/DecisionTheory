@@ -5,6 +5,8 @@ layout: home
 
 ## Coming Soon
 
+Mermaid test
+
 ```mermaid
 graph TD;
     A-->B;
