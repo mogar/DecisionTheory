@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Prisoner's Dilemma
-parent: problems
+parent: Problems
+navorder: 1
 ---
 
 # Color Utilities

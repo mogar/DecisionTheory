@@ -1,7 +1,8 @@
 ---
 layout: default
 title: CDT
-parent: Theiries
+parent: Theories
+navorder: 1
 ---
 
 # Color Utilities

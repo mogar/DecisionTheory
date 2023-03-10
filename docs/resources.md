@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Customization
-nav_order: 3
+title: Resources
+nav_order: 4
 ---
 
 ## Books
