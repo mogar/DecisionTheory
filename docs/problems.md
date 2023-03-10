@@ -7,7 +7,6 @@ permalink: docs/problems
 ---
 
 # Decision Theory Problems
-{: .no_toc }
 
 Decision theory problems are usually presented as a story. In this story, the agents and their motives are described. The story gives enough information for you to figure out payoffs for each agent, often as explicit numerical values but sometimes implicitly.
 

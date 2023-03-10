@@ -5,18 +5,7 @@ parent: Problems
 navorder: 1
 ---
 
-# Color Utilities
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-## Prisoner's Dilemma
+# Prisoner's Dilemma
 
 Two members of a criminal gang are arrested and held in separate cells. Their jailers interrogate them separately, and the prisoners can't communicate. The prisoners know the police don't have enough information to convict them of a large crime they committed, but they could each be convicted of a smaller crime.
 
