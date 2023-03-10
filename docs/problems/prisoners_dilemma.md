@@ -2,7 +2,7 @@
 layout: default
 title: Prisoner's Dilemma
 parent: Problems
-navorder: 1
+navorder: 2
 ---
 
 # Prisoner's Dilemma

@@ -2,7 +2,7 @@
 layout: default
 title: CDT
 parent: Theories
-navorder: 1
+navorder: 2
 ---
 
 # Causal Decision Theory
