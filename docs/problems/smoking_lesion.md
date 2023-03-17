@@ -16,16 +16,17 @@ Should you smoke?
 ## Normal Form Game
 
 Assumptions:
-* if you have the lesion, smoking is worth $5
-* if you don't have the lesion, smoking is worth $1
+* smoking is worth $1
 * cancer is worth -$10
 * if you have the lesion, your chance of cancer is 0.8
 * if you don't have the lesion, your chance of cancer is 0.2
-* use normal expected value to calculate loss in value due to cancer
+* 10% of people without the lesion smoke
+* 90% of people with the lesion smoke
+* use expected value to calculate loss in value due to cancer
 
 | | lesion | no lesion |
 |---|---|---|
-| smoke | -3 | -1 |
+| smoke | -7 | -1 |
 | don't  | -8 | -2 |
 
 ## Extensive Form Game
@@ -42,7 +43,7 @@ flowchart TB
 	
 	lesionYou o-.-o noLesionYou
 
-	lesionYou -- "smoke" --> ls["-3"]
+	lesionYou -- "smoke" --> ls["-7"]
 	lesionYou -- "don't smoke" --> lns["-8"]
 
 	noLesionYou -- "smoke" --> nls["-1"]
