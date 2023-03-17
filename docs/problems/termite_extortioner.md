@@ -13,8 +13,8 @@ When checking your mail, you find a letter from a known extortioner. Everyone kn
 
 The letter states:
 
-> I know whether your house has termites. I have sent this letter to you if and only if I predict that exactly one of the following is true:
-> a) the rumor about your house having termites is false, and you will pay me $1,000 upon receiving this letter
+> I know whether your house has termites. I have sent this letter to you if and only if I predict that exactly one of the following is true:   
+> a) the rumor about your house having termites is false, and you will pay me $1,000 upon receiving this letter   
 > b) the rumor is true, and you will _not_ pay me $1,000 upon receiving this letter
 
 What do you do in response to the letter?
@@ -36,8 +36,8 @@ Note that nodes with a dotted line between them are in the same information set.
 
 ```mermaid
 flowchart TB
-    predictPay["termites"]
-    predictNoPay["termites"]
+    predictPay["termites?"]
+    predictNoPay["termites?"]
 	Extortioner -- "predict payment" --> predictPay
     Extortioner -- "predict no payment" --> predictNoPay
     
@@ -60,8 +60,8 @@ flowchart TB
 
     letterTermitesPay["-$1001000, $999"]
     letterTermitesNoPay["$1000000, -$1"]
-    payTermites -- "pay" --> letterTermitesPay
-    payTermites -- "don't pay" --> letterTermitesNoPay
+    noPayTermites -- "pay" --> letterTermitesPay
+    noPayTermites -- "don't pay" --> letterTermitesNoPay
 ```
 
 ## Solutions in various Decision Theories

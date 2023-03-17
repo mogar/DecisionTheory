@@ -11,8 +11,8 @@ PRs welcome if you see something that should be fixed/improved/added.
 ## TODO
 
 * page footer with links here and for contact
-* more problems
 * flesh out CDT with do-operator stuff
+* sleeping beauty
 
 ## Site Details
 
