@@ -38,16 +38,16 @@ Note that nodes with a dotted line between them are in the same information set.
 flowchart TB
     predictPay["termites?"]
     predictNoPay["termites?"]
+    noPayNoTermites["$0, $0"]
 	Extortioner -- "predict payment" --> predictPay
     Extortioner -- "predict no payment" --> predictNoPay
     
-    payTermites["-1000000, 0"]
     payNoTermites["you"]
+    payTermites["-1000000, 0"]
     predictPay -- "termites" --> payTermites
     predictPay -- "no termites" --> payNoTermites
 
     noPayTermites["you"]
-    noPayNoTermites["$0, $0"]
     predictNoPay -- "termites" --> noPayTermites
     predictNoPay -- "no termites" --> noPayNoTermites
 
