@@ -15,4 +15,4 @@ More formally, EDT-using agents will calculate expected payoffs [using condition
 
 In order to make a decision using EDT, you need to know all of the conditional probabilities (the correlations) between the variables in the problem. For standard DT problems, these are given in the problem statement. In the real world, finding these correlations has been the main effort of many sciences for the past hundred years or so. EDT is a good fit for the classical statistics view of science.
 
-Once you have all the relevant conditional probabilities, you can calculate outcomes 
+Once you have all the relevant conditional probabilities, you can calculate outcomes. You do this by setting the value of your decision, then calculating the expected payoffs via probabilities that are conditioned on your decision.

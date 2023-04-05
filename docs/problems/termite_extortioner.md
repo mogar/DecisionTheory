@@ -5,7 +5,7 @@ parent: Problems
 navorder: 5
 ---
 
-# Termite Extortioner
+# Termite Extortioner (XOR blackmail)
 
 You hear a rumor that your house has termites. If it does have termites, you know it will cost you $1,000,000 to get all the damage fixed up. You're not sure if the rumor is true, though.
 
@@ -83,7 +83,7 @@ The Evidential Decision Theorist knows the following conditional probabilities:
 * Probability that they have termites, given that they pay the blackmail = 0
 * Probability that they have termites, given that they _don't_ pay blackmail = 1
 
-The cost of having termites is much larger than the cost of blackmail, so the EDT agent will pay the blackmail as that is correlated with not having termites at all. The very fact that they would pay it leads to it being sent.
+The cost of having termites is much larger than the cost of blackmail, so the EDT agent will pay the blackmail as that is correlated with not having termites at all. The very fact that they would pay it leads to it being sent in a world where they don't actually have termites.
 
 ## References
 

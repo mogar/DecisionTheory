@@ -71,8 +71,8 @@ The Evidential Decision Theorist has the following conditional probabilities:
 
 From these, they can calculate:
 
-* Probability of getting cancer, given that they smoke = (0.8*0.9 + 0.3*0.2) / (0.9+.03) = 0.65
-* Probability of getting cancer, given that they _don't_ smoke = (0.8*0.1 + 0.3*0.8) / (0.1+0.8) = 0.35
+* Probability of getting cancer, given that they smoke = (0.8\*0.9 + 0.3\*0.2) / (0.9+.03) = 0.65
+* Probability of getting cancer, given that they _don't_ smoke = (0.8\*0.1 + 0.3\*0.8) / (0.1+0.8) = 0.35
 
 Once you have the probabilities of getting cancer given that you smoke (which remember is not a causal pathway), you can calculate your expected values by including payoffs for smoking and cancer.
 

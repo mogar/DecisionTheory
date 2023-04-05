@@ -7,7 +7,7 @@ navorder: 4
 
 # Parfit's Hitchhiker
 
-Your car breaks down as you're driving through a desert. You're stranded there don't see a way to get out before you die of thirst. Suddenly, a car comes driving down the road. It stops and the driver leans out to talk to you.
+Your car breaks down as you're driving through a desert. You're stranded there and don't see a way to get out before you die of thirst. Suddenly, a car comes driving down the road. It stops and the driver leans out to talk to you.
 
 The driver says "I'll give you a ride to town for $100."
 
