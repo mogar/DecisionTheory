@@ -72,6 +72,23 @@ While in the desert, the CDT agent will offer the money. The driver will then ac
 
 The result is that the CDT agent dies in the desert.
 
+### EDT
+
+When in the desert, the EDT agent reasons similarly to the CDT agent. Their decision process remains similar when they get to town.
+
+After arriving in town, the EDT agent is faced with the _new_ choice about whether to get the money. One important conditional probability here is on whether the driver has already driven them to town. Specifically:
+
+* Probability the driver drove them into town, given that they are deciding whether to pay = 1
+
+When they are in town deciding whether to pay, their further conditional probabilities now are:
+
+* Probability that they have $100, given that they pay $100 = 0
+* Probability that they have $100, given that they don't pay $100 = 1
+
+Since having $100 is better than not, the EDT agent will not pay the driver when they get to the town. The driver will predict this, and will not save the EDT agent.
+
+The result is that the EDT agent dies in the desert.
+
 
 ## References
 

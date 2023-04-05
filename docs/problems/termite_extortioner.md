@@ -74,7 +74,16 @@ Similarly, there's no causal path from deciding to pay to whether the letter get
 
 Therefore, if you see the letter, you can save $1000 by not paying. Whether you have termites or not doesn't enter into it.
 
-The CDT agent will not send any money to the extortioner.
+The CDT agent will not send any money to the extortioner. In a world with no termites, the CDT agent wouldn't even receive the blackmail letter.
+
+### EDT
+
+The Evidential Decision Theorist knows the following conditional probabilities:
+
+* Probability that they have termites, given that they pay the blackmail = 0
+* Probability that they have termites, given that they _don't_ pay blackmail = 1
+
+The cost of having termites is much larger than the cost of blackmail, so the EDT agent will pay the blackmail as that is correlated with not having termites at all. The very fact that they would pay it leads to it being sent.
 
 ## References
 

@@ -5,11 +5,13 @@ parent: Problems
 navorder: 2
 ---
 
-# Prisoner's Dilemma
+# Prisoner's Dilemma with Clones
 
 Two members of a criminal gang are arrested and held in separate cells. Their jailers interrogate them separately, and the prisoners can't communicate. The prisoners know the police don't have enough information to convict them of a large crime they committed, but they could each be convicted of a smaller crime.
 
 Their jailers give each prisoner the same choice: if you rat out your partner, we'll let you go and convict him for the big crime. If he rats you out, we'll convict you but not him. If you both rat each other out, we'll let you out a bit early for helping us.
+
+In this game, let's assume the prisoners are clones of each other (including memories). They know that, however they decide, the other prisoner will decide in the same way.
 
 What should each prisoner do?
 
@@ -48,6 +50,17 @@ flowchart TB
 The Causal Decision Theorist reasons that their decision won't change what their partner is doing. They therefore decide simply to maximize their performance in the Normal form game. Regardless of what their partner does, they do better by defecting.
 
 The CDT prisoner always defects.
+
+### EDT
+
+The evidential decision theorist has the following conditional probabilities:
+
+* Probability that the other play cooperates, given that I cooperate = 1
+* Probability that the other play cooperates, given that I defect = 0
+* Probability that the other play defects, given that I cooperate = 0
+* Probability that the other play defects, given that I defect = 1
+
+From this, the expected value of defecting is -2. The expected value of cooperating is -1. Since -1 is better than -2, the EDT prisoner will cooperate.
 
 ## Variants
 

@@ -11,6 +11,7 @@ PRs welcome if you see something that should be fixed/improved/added.
 ## TODO
 
 * flesh out CDT with do-operator stuff
+* stag hunt
 * sleeping beauty
 
 ## Site Details

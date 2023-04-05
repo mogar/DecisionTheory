@@ -42,3 +42,9 @@ flowchart TB
 The Causal Decision Theorist reasons that the demon has already placed money in the boxes. Nothing that the decider does now can change what the demon has already done. That being the case, taking only one box is leaving money on the table.
 
 The CDT agent always takes both boxes.
+
+### EDT
+
+The Evidential Decision Theorist knows that the probability that the demon (already) placed $1M in B, given that they don't take A, is 1. The EDT-user also knows that the probability, given that they do take A, is 0. From this, they calculate that taking both boxes only leads to an expected outcome of $1000, while taking one box leads to an expected outcome of $1M.
+
+The EDT agent always takes only box B.
